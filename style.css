@@ -13,16 +13,16 @@
     font-weight: 700;
 }
 .banner-section{
-    height: 785px;
+    height: 550px;
     display: flex;
     align-items: center;
     justify-content: space-around;
     background: rgba(229, 84, 115, 0.10);
-    padding: 30px 10px 0px 110px;
+    padding: 30px 10px 0px 150px;
 }
 .banner-title{
     color: #272727;
-    font-size: 70px;
+    font-size: 80px;
     font-weight: 800;
     line-height: normal;
 }
@@ -33,9 +33,8 @@
     line-height: 25px;
     margin: 25px 0;
 }
-.banner-img{
-    height: 800px;
-    width: 635px;
+.banner-img img{
+    height: 552px;
 }
 .featured-section{
     text-align: center;
@@ -143,6 +142,13 @@
 }
 .client{
     width: 32.5%;
+}
+.client-titel{
+    margin-top: 10px;
+    font-size: 32px;
+}
+.client-discription{
+    margin: 15px 0;
 }
 .client > img{
     height: 350px;
